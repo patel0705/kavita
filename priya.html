@@ -1,0 +1,636 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio Website - Easy Tutorial</title>
+<link rel="stylesheet" href="body.css">
+<script src="https://kit.fontawesome.com/c4254e24a8.js"crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logu.jpg" class="logo">
+        <ul id="sidemenu">
+         <li><a href="#header">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+           <li><a href="#services">services</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+     <div class="header-text">
+        <h1>Hi,I am <span>PATEL KAVITA</span> <br>FROM KIM.</h1>
+    </div>
+  </div>
+  </div>
+<!-------------about----------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="kaviiiii.jpg">
+          
+        </div>
+        <div class="about-col-2">
+          <h1 style="color:rgb(64, 45, 236)" class="sub-title"> About me</h1>
+          <p>i am kavita from kim .i am 17 year old, studing in computer engineering. my father name is ashokbhai and my mother name is prabhaben.my aim is become a software engineer.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+            <p class="tab-links"onclick="opentab('education')">Education</p>
+          </div>
+            <div class="tab-contents active-tab" id="skills">
+<ul>
+
+<li>cooking</li>
+<li>dancing</li>
+<li>writting</li>
+</ul>
+          </div>
+           <div class="tab-contents"id="experience">
+<ul>
+
+<li><span>2023</span><br>Studying in diploma Engineering </li>
+<li><span>2023</span><br>Internship at EEC Excellent Engineering Classes</li>
+</ul>
+          </div>
+          <div class="tab-contents" id="education">
+<ul>
+
+<li><span>2023</span><br>Study in diploma Engineering </li>
+<li><span>2023</span><br>2nd sem in computer engineering </li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!----------------services------->
+   <div id="services">
+    <div class="container">
+       <h1 style="color:rgb(78, 124, 161)" class="sub-title"> My services</h1>
+       <div class="services-list">
+         <div>
+           <i class="fas fa-code"></i>
+           <h2>Web Design </h2>
+           <p>Virat Kohli is an Indian cricketer and the current captain of the India national team. A right-handed top-order batsman.</p>
+           <a href="#">learn more</a>
+           
+         </div>
+         <div>
+            <i class="fas fa-crop-alt"></i>
+           <h2>UI/UX Design</h2>
+           <p>Virat Kohli is an Indian cricketer and the current captain of the India national team. A right-handed top-order batsman.</p>
+           <a href="#">learn more</a>
+         </div>
+         <div>
+            <i class="fas fa-app-store"></i>
+           <h2>App Design </h2>
+           <p>Virat Kohli is an Indian cricketer and the current captain of the India national team. A right-handed top-order batsman.</p>
+           <a href="#">learn more</a>
+         </div>
+       </div>
+    </div>
+  </div>
+
+  <!-------portfolio------>
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My work </h1>
+      <div class="work-list">
+        <div class="work">
+           <img src="work0.jpg">
+           <div class="layer">
+             <h3>social Media app</h3>
+             <p>The app connect you to the talented people around the world.</p>
+             <a href="#"><i class="fas fa-external-link-alt"></i></a>
+           </div>
+           </div>
+           <div class="work">
+           <img src="work.jpg">
+            <div class="layer">
+             <h3>Music app</h3>
+             <p>The app connect you to the talented people around the world.</p>
+             <a href="#"><i class="fas fa-external-link-alt"></i></a>
+           </div>
+        </div>
+          <div class="work">
+           <img src="work9.jpg">
+            <div class="layer">
+             <h3>Online shopping app</h3>
+             <p>The app connect you to the talented people around the world.</p>
+             <a href="#"><i class="fas fa-external-link-alt"></i></a>
+           </div>
+      
+    </div>
+      </div>
+      <a href="www.google.com" class="btn">See more</a>
+    </div>
+    </div>
+    <!--------contact+-------->
+      <div id="connect">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">contact me</h1>
+              
+              <p><i class="fas fa-paper-plane"></i>kavitapatel0705@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i>6352861260</p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/aayush.bakoriya.16?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                 <a href=""><i class="fab fa-twitter-square"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                   <a href=""><i class="fab fa-linkedin"></i></a>
+                    
+              </div>
+              <a href="" download class="btn btn2 ">Download CV</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text"name="name" placeholder="your Name" required>
+                <input type="email" name="email" placeholder="your email" required>
+                <textarea name="Message"rows="6" placeholder="your message"></textarea>
+                <button type="submit"class="btn btn2">submit</button>
+              </form>
+              <span id="msg">Message sent successfully</span>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright ©kavita .Made with<i class="fa-solid fa-heart"></i> by KAVITA</p>
+        </div>
+      </div>
+  <script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  function opentab(tabname){ 
+    for(tablink of tablinks)
+    {
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents)
+    {
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+  }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu")
+    
+    
+    function openmenu(){
+      sidemenu.style.right="0";
+    }
+    
+    function closemenu(){
+      sidemenu.style.right="-200px";
+    }
+    
+    
+  </script>
+  
+<script>
+  const scriptURL = "https://script.google.com/macros/s/AKfycbywsjWW7Pq9aEmnJWMhXi4ewNg_ZLM63cNUkyAvTA77oi-Gd2Y1uOCLRXAQoZoAdufWjg/exec"
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {msg.innerHtml="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML =""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+  </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
